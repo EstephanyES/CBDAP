@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Source Sans 3', sans-serif;
+    text-decoration: none;
+
+}
+
+/*articulos*/
+
+main{
+    background-image: url(/img/fondo.jpg);
+    padding:10px 20px;
+    margin-top: 10px;
+}
+
+h1{
+    font-size: 30px;
+    text-align: center;
+}
+
+article{
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: azure;
+}
+
+article p{
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: 300px;
+}
+
+main{
+        margin-top: 0px;
+}
+
