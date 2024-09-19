@@ -95,9 +95,36 @@
             <br>
             <br>→ Practica-Profesor =
              <br>La selacion se describe con "diseña", para indicar que el maestro esta diseñando una practica.
-
+             <br>
         </p>
+        <br>
+        <p>
+            <h2>NORMALIZACIÓN</h2>
+            <br>
+            <br>- La normalizacion es el proceso de aplicar normas para organizar y mejorar una base de datos.
+            <br>
+            <br>-Este proceso es esencial para corregir tres problemas principales que suelen surgir en la construccion en la base de datos.
+            <br>
+            <br>-Problema de Inserción= 
+            <br>
+            <br>Es cuando se intenta agregar una nueva materia auna tabla que contiene los atributos nambre, apellido, materia y aula. Si solo se inserta la materia, los campos de nombre y apellido pueden quedar vacios, lo cual no es aceptable ya que una tabla no debe tener datos incompletos.
+            <br>
+            <br>-Problemas de Redundancia = 
+            <br>
+            <br>Esto courre cuando hay datos duplicados en la tabla, esta duplicacion no solo ocupa espacio innecesario, sino que tambien puede llevar a incosistencias en los datos. 
+            <br>
+            <br>- Problemas de Eliminación = 
+            <br>Un ejemplo es cuando un estudiante, como Hector, decide abandonar una materia. Al eliminar su registro, no solo se elimina la materia, sino tambien el nombre y apellido, lo que deja con datos incopletos en la tabla.
+            <br>
+            <br>-Para solucionarlos, se usan formas normales que establecen restricciones y organizan los datos en diferentes niveles.
+            <br>
+            <br>-Primera Forma Normal (1NF) = Asegura que cada columna de la tabla contenga valores atomicos y que cada entrada en la columna sea unica.
 
+            <br>-Segunda Forma Normal (2NF) = ademas de cumplir con la primera, elimina la redundancia parcial asegurando que cada atributo no clave dependa completamente de la clave primaria.
+
+            <br>-tercera Forma Normal (3NF)=Ademas de cumplir con la 2NF, elimina la dependencia trasitiva, asegurando que los atributos no clave no dependan de otros atributas no clave.
+        </p>
+        <br>
 
         </article>
     </main>
