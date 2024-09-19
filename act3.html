@@ -16,44 +16,44 @@
             <h2>Primera forma normal</h2>
             <br>
 
-            Para que una tabla este en INF, todos los atributos deben tener valores atomicos, lo que significa que cada campo debe contener un solo valor indivisible. Esto evita la duplicacion de datos y asegura que no haya atributos con multiples valores en una sola celda.
-            
-            Beneficios de la INF
-            
-            - Eliminacion de Redundancia - Al dividir los datos en tablas mas pequeñas y relacionadas, se evita la duplicacion de información.
-            
-            Mejora de la Integridad de los Datos = Al usar las llaves primarias y Foraneas, se asegura que los datos esten correctamente exactos y que no haya inconsistencias.
-            
-            Facilidad de Mantenimiento = Las bases de datos normalizadas son mas faciles de entender y actualizar, ya que los cambios en un dato se reflejan en todas las tabla relacionadas.
-
-            - Llaves Primarias y Foraneas.
-
--Es crucial usar estas llaves para relacionar tablas. Una llave primaria es un identificador unico para cada registro en una tabla y no debe repetirse
-
-- Una Liave Foranea es un campo en una tabla que es una llave primaria en otra tabla y se usa para crear relaciones entre tablas
-
+            <br>Para que una tabla este en INF, todos los atributos deben tener valores atomicos, lo que significa que cada campo debe contener un solo valor indivisible. Esto evita la duplicacion de datos y asegura que no haya atributos con multiples valores en una sola celda.
+            <br>
+            <br>Beneficios de la INF
+            <br>
+            <br>- Eliminacion de Redundancia - Al dividir los datos en tablas mas pequeñas y relacionadas, se evita la duplicacion de información.
+            <br>
+            <br>Mejora de la Integridad de los Datos = Al usar las llaves primarias y Foraneas, se asegura que los datos esten correctamente exactos y que no haya inconsistencias.
+            <br>
+            <br>Facilidad de Mantenimiento = Las bases de datos normalizadas son mas faciles de entender y actualizar, ya que los cambios en un dato se reflejan en todas las tabla relacionadas.
+            <br>
+            <br>- Llaves Primarias y Foraneas.
+            <br>
+            <br>-Es crucial usar estas llaves para relacionar tablas. Una llave primaria es un identificador unico para cada registro en una tabla y no debe repetirse
+            <br>
+            <br>- Una Liave Foranea es un campo en una tabla que es una llave primaria en otra tabla y se usa para crear relaciones entre tablas
+            <br>
             <h2>Segunda forma normal</h2>
-
+            <br>
             <br>Para que una tabla este en segunda forma normal (2NF), primero debe cumplir con los requisitos de la primera forma normal (INF). Esto significa que todos los atributos no clave candidata, evita redundancia y dependencias incompletas.
-
-            El texto utiliza un ejemplo con una tabla que incluye las columnas. codigo, producto, caja, marca, cantidad, costo y total. En esa tabla, el codigo es la clave primaria. Se identifican tres. tipos de dependencias.
-            
-            -Para normalizar la tabla 2NF se deben crear 3 tablas basadas en dependencias.
-            
-            - Una tabla para la relacion entre codigo, producto y costo -
-            
-            Una tabla para la relacion entre caja y marca
-            
-            . -Una tabla para la relacion entre codigo, caja, cantidad y total.
-
+            <br>
+            <br>El texto utiliza un ejemplo con una tabla que incluye las columnas. codigo, producto, caja, marca, cantidad, costo y total. En esa tabla, el codigo es la clave primaria. Se identifican tres. tipos de dependencias.
+            <br> 
+            <br>-Para normalizar la tabla 2NF se deben crear 3 tablas basadas en dependencias.
+            <br>
+            <br>- Una tabla para la relacion entre codigo, producto y costo 
+            <br>
+            <br>Una tabla para la relacion entre caja y marca.
+            <br>
+            <br>-Una tabla para la relacion entre codigo, caja, cantidad y total.
+            <br>
             <h2>Tercera forma normal</h2>
             <br>
             <br>- El curso de diseño de bases de datos aborda para que una tabla este en (3NF), primero debe estar en 2NF, se debe identificar las columnas que dependen de otras columnas no clave y crear una segunda tabla con estas columnas y la columna no clave de la cual dependen.
-
-            - El concepto de dependencia transitiva se explica con ejemplos, en 2NF las columnas dependen de la clave primaria. Sin embargo, en 3NF cualquier columna no clave que dependa de otra columna no clave debe ser eliminada o movida a otra tabla. Esto asegura que no haya dependencias transitivas, es decir, que una columna no clave no dependa indirectamente de la clave primaria a traves de otra columna no clave.
-            
-            - Al final se muestra como identificar y manejar dependencias transitivas an una tabla para asegurar que este en 3NF, garantizando asi una estructura de base de datos mas eficiente y libre de redundancias. Esto implica analizar las relaciones entre columnas y asegurarse de que todas las dependencias 1- sean directas con la clave primaria.
-
+            <br>
+            <br>- El concepto de dependencia transitiva se explica con ejemplos, en 2NF las columnas dependen de la clave primaria. Sin embargo, en 3NF cualquier columna no clave que dependa de otra columna no clave debe ser eliminada o movida a otra tabla. Esto asegura que no haya dependencias transitivas, es decir, que una columna no clave no dependa indirectamente de la clave primaria a traves de otra columna no clave.
+            <br>
+            <br>- Al final se muestra como identificar y manejar dependencias transitivas an una tabla para asegurar que este en 3NF, garantizando asi una estructura de base de datos mas eficiente y libre de redundancias. Esto implica analizar las relaciones entre columnas y asegurarse de que todas las dependencias 1- sean directas con la clave primaria.
+            <br>
         </article>
     </main>
     
